@@ -4,7 +4,7 @@ pipeline {
         stage('Git CheckOut')
         {
             steps{
-                git 'https://github.com/ankupsatpute/simple-app.git' // 
+                git 'https://github.com/ankushc123/ansible-nexus-module.git' // 
                 echo "Git Checkout Completed"
        
             }
